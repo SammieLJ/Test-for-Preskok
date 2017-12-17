@@ -1,5 +1,3 @@
-**Strongly advice to read Word file: BASIC.DOCX**
-
 # Solutions
 ###  Solution 1 - folder: **AccountingFirmDB** - SQL test
 ### Solution 2 - please see section **b.** (whole unix command)
@@ -97,3 +95,5 @@ For pasing data, there are prepared three CSV files:
 -	Names.csv and Surname.csv (generated from http://listofrandomnames.com/)
 
 For mock up/testing DataTables.Net jQuery component, there is folder named »DataTableTest«
+
+**PS: Strongly advice to read Word file: BASIC.DOCX**
