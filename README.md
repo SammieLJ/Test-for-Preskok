@@ -1,9 +1,9 @@
 # Solutions
-##  Solution 1 - folder: **AccountingFirmDB** - SQL test
-## Solution 2 - please see section **b.** (whole unix command)
-## Solution 3 - folder: **ForensicComputer** - finding DNK sequence
-## Solution 4 - folder: **Practical** - practical solution (file parser, web table, create table and csv files)
-## Solution 4 - addon folder: **DataTableTest** - test that jQuery commponent works inside web page
+###  Solution 1 - folder: **AccountingFirmDB** - SQL test
+### Solution 2 - please see section **b.** (whole unix command)
+### Solution 3 - folder: **ForensicComputer** - finding DNK sequence
+### Solution 4 - folder: **Practical** - practical solution (file parser, web table, create table and csv files)
+### Solution 4 - addon folder: **DataTableTest** - test that jQuery commponent works inside web page
 
 # Basic test for Junior Developer
 **a.**	Create database structure for accounting firm. Keep in mind that accounting firm has to keep records of their clients, clients incoming and outgoing invoices, costs and has to keep receipts for at least 5 years. Most frequent query is by client name and yearly income and second one is getting most profitable client
