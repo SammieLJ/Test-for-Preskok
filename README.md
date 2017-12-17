@@ -15,8 +15,11 @@ Please see folder – AccountingFirmDB for create and select test scripts. Files
 find . -type f -name '*.js' -exec cat {} + >> main.js
 
 **c.**	You are a forensic computer scientist, and you have to write a program that finds the right person responsible for a murder. the detective sent you an DNK sample of a murderer and list of 3 suspect. Data sent to you:
+
 **i.	DNK:** HHHKLJ140L98IHYYYN (CODE: HAIR, EYES, RACE)
+
 **ii.	Note for me:** You check that it contains all three attributes, then this is the person! Single object – single person, use properties!
+
 **iii.	Suspects:**
 1.	John Novak 
 a.	Hair:  Black
