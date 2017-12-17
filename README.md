@@ -26,35 +26,60 @@ Please see folder – AccountingFirmDB for create and select test scripts. Files
 **iii.	Suspects:**
 
 1.	John Novak 
+
 a.	Hair:  Black
+
 b.	Eyes: Green
+
 c.	Race: Asian
+
 2.	Vin Diesel:
+
  .	Hair: Blonde
+ 
 a.	Eyes: Brown
+
 b.	Race: Caucasian
+
 3.	 Guy Fawkes:
+
  .	Hair: Black
+ 
 a.	Eyes: Brown
+
 b.	Race: Hispanic
 
 
 **iv.	Legend**
 
 1.	Eyes:
+
 a.	Black:  140L98
+
 b.	Green: 140A98
+
 c.	Brown: 140A88
+
 d.	Blue:    140L97
+
 2.	Hair: 
+
  .	Brown: HHHKLJ
+ 
 a.	Black:   HHHKLI
+
 b.	Blonde: HHLH1L
+
 c.	White:  HHLH2L
+
 3.	Race:
+
  .	Asian: 1HYYYN
+ 
 a.	Hispanic: IHYYYN
+
 b.	White: IHYYNN
+
 
 **Solution:**
 is in folder **ForensicComputer**. This is Command Prompt/Bash application. Run it command line **»php ForensicComputer.php«**. Solution found neither of listed persons. I have to have create my own **»Perfect Suspect person«**, which matched the case.
