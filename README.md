@@ -5,12 +5,16 @@
 ### Solution 4 - folder: **Practical** - practical solution (file parser, web table, create table and csv files)
 ### Solution 4 - addon folder: **DataTableTest** - test that jQuery commponent works inside web page
 
+**Strongly advice to read Word file: BASIC.DOCX**
+
 # Basic test for Junior Developer
 **a.**	Create database structure for accounting firm. Keep in mind that accounting firm has to keep records of their clients, clients incoming and outgoing invoices, costs and has to keep receipts for at least 5 years. Most frequent query is by client name and yearly income and second one is getting most profitable client
+
 **Solution**
 Please see folder – AccountingFirmDB for create and select test scripts. Files are in sql file format.
 
 **b.**	How would you find all files  that  ends with “.js”  and bundle them together into one file.
+
 **Solution in Bash command:**
 find . -type f -name '*.js' -exec cat {} + >> main.js
 
@@ -21,6 +25,7 @@ find . -type f -name '*.js' -exec cat {} + >> main.js
 **ii.	Note for me:** You check that it contains all three attributes, then this is the person! Single object – single person, use properties!
 
 **iii.	Suspects:**
+
 1.	John Novak 
 a.	Hair:  Black
 b.	Eyes: Green
@@ -33,7 +38,10 @@ b.	Race: Caucasian
  .	Hair: Black
 a.	Eyes: Brown
 b.	Race: Hispanic
+
+
 **iv.	Legend**
+
 1.	Eyes:
 a.	Black:  140L98
 b.	Green: 140A98
