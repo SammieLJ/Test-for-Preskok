@@ -16,6 +16,7 @@ Please see folder – AccountingFirmDB for create and select test scripts. Files
 **b.**	How would you find all files  that  ends with “.js”  and bundle them together into one file.
 
 **Solution in Bash command:** (set to project root folder and execute command)
+
 ```find . -type f -name '*.js' -exec cat {} + >> main.js```
 
 **c.**	You are a forensic computer scientist, and you have to write a program that finds the right person responsible for a murder. the detective sent you an DNK sample of a murderer and list of 3 suspect. Data sent to you:
