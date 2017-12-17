@@ -75,7 +75,19 @@ Data: https://admin.b2b-carmarket.com//test/project
 Hint: https://datatables.net/, if you decide to use Datatables, make sure that all searching and paging is done in PHP not in JS!
 
 **Solution**
-is in folder **»Practical«**. Solution is in two php files FileParser.php and DataGrid.php. First file is command line tool, which is run by »php FileParser.php«
+is in folder **»Practical«**. 
+
+Firstly configure your's MySQL connection parameters in file "FileParser.php". Before that create MySQL database named "PracticalParseFile" and execute sql script "DataFileTableAndDB.sql"
+
+FileParser.php
+
+```// exec  mysqli connection
+$servername = "localhost or IP address of MySQL server";
+$username = "root or other MySQL username";
+$password = "enter users password";
+$dbname = "PracticalParseFile";```
+
+Solution is in two php files FileParser.php and DataGrid.php. First file is command line tool, which is run by »php FileParser.php«
 Second file is web page using DataTables.Net jQuery component. (you have to wait couple of moments/seconds to fully load) 
 After running »php FileParser.php«, we have filled data into table stored in MySQL. Please firstly find sql file (DataFileTableAndDB.sql) that is Create table for »datafile« table. Also, you can find testing sql commands »TestData.sql«
 
