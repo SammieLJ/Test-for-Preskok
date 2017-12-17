@@ -1,17 +1,14 @@
-# Test-for-Preskok
-4 test assignments made for Slovenian agency - Preskok
-
-## Basic test for Junior Developer
-a.	Create database structure for accounting firm. Keep in mind that accounting firm has to keep records of their clients, clients incoming and outgoing invoices, costs and has to keep receipts for at least 5 years. Most frequent query is by client name and yearly income and second one is getting most profitable client
+# Basic test for Junior Developer
+##a.	Create database structure for accounting firm. Keep in mind that accounting firm has to keep records of their clients, clients incoming and outgoing invoices, costs and has to keep receipts for at least 5 years. Most frequent query is by client name and yearly income and second one is getting most profitable client
 Please see folder – AccountingFirmDB for create and select test scripts. Files are in sql file format.
 
-b.	How would you find all files  that  ends with “.js”  and bundle them together into one file.
+##b.	How would you find all files  that  ends with “.js”  and bundle them together into one file.
 Bash command:
 find . -type f -name '*.js' -exec cat {} + >> main.js
 
-c.	You are a forensic computer scientist, and you have to write a program that finds the right person responsible for a murder. the detective sent you an DNK sample of a murderer and list of 3 suspect. Data sent to you:
+##c.	You are a forensic computer scientist, and you have to write a program that finds the right person responsible for a murder. the detective sent you an DNK sample of a murderer and list of 3 suspect. Data sent to you:
 i.	DNK: HHHKLJ140L98IHYYYN (CODE: HAIR, EYES, RACE)
-ii.	Note zame: Preverjaš, če vsebuje vse tri atribute, potem je to ta oseba! Uporabi objekte!
+ii.	Note for me: You check that it contains all three attributes, then this is the person! Single object – single person, use properties!
 iii.	Suspects: 
 1.	John Novak 
 a.	Hair:  Black
@@ -40,7 +37,9 @@ c.	White:  HHLH2L
  .	Asian: 1HYYYN
 a.	Hispanic: IHYYYN
 b.	White: IHYYNN
-Solution is in folder ForensicComputer. This is Command Prompt/Bash application. Run it command line »php ForensicComputer.php«. Solution is neither of listed persons. I have creted Perfect Suspect person, which matches case.
+
+## Solution:
+is in folder ForensicComputer. This is Command Prompt/Bash application. Run it command line »php ForensicComputer.php«. Solution is neither of listed persons. I have creted Perfect Suspect person, which matches case.
 
 
 Practical:
