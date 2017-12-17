@@ -85,7 +85,8 @@ FileParser.php
 $servername = "localhost or IP address of MySQL server";
 $username = "root or other MySQL username";
 $password = "enter users password";
-$dbname = "PracticalParseFile";```
+$dbname = "PracticalParseFile";
+```
 
 Solution is in two php files FileParser.php and DataGrid.php. First file is command line tool, which is run by »php FileParser.php«
 Second file is web page using DataTables.Net jQuery component. (you have to wait couple of moments/seconds to fully load) 
