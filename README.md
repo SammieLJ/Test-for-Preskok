@@ -9,7 +9,7 @@
 **a.**	Create database structure for accounting firm. Keep in mind that accounting firm has to keep records of their clients, clients incoming and outgoing invoices, costs and has to keep receipts for at least 5 years. Most frequent query is by client name and yearly income and second one is getting most profitable client
 
 **Solution**
-Please see folder – AccountingFirmDB for create and select test scripts. Files are in sql file format.
+Please see folder – AccountingFirmDB for create and select test scripts. Files are in sql file format. Firstly create database in MySQL named "AccountingFirmDB" and then run script named "AccountingFirmDB.sql" in MySQL command line or Workbench. I have used Windows client HeidiSQL.
 
 **b.**	How would you find all files  that  ends with “.js”  and bundle them together into one file.
 
