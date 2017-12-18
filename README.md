@@ -1,17 +1,15 @@
-**Strongly advice to read Word file: BASIC.DOCX**
-
 # Solutions
-###  Solution 1 - folder: **AccountingFirmDB** - SQL test
-### Solution 2 - please see section **b.** (whole unix command)
-### Solution 3 - folder: **ForensicComputer** - finding DNK sequence
-### Solution 4 - folder: **Practical** - practical solution (file parser, web table, create table and csv files)
-### Solution 4 - addon folder: **DataTableTest** - test that jQuery commponent works inside web page
+###  Solution 1 - folder: [AccountingFirmDB](https://github.com/SammieLJ/Test-for-Preskok/tree/master/AccountingFirmDB) - SQL test
+### Solution 2 - please see section (b.) (whole unix command)
+### Solution 3 - folder: [ForensicComputer](https://github.com/SammieLJ/Test-for-Preskok/tree/master/ForensicComputer) - finding DNK sequence
+### Solution 4 - folder: [Practical](https://github.com/SammieLJ/Test-for-Preskok/tree/master/Practical) - practical solution (file parser, web table, create table and csv files)
+### Solution 4 - addon folder: [DataTableTest](https://github.com/SammieLJ/Test-for-Preskok/tree/master/DataTableTest) - test that jQuery commponent works inside web page
 
 # Basic test for Junior Developer
 **a.**	Create database structure for accounting firm. Keep in mind that accounting firm has to keep records of their clients, clients incoming and outgoing invoices, costs and has to keep receipts for at least 5 years. Most frequent query is by client name and yearly income and second one is getting most profitable client
 
 **Solution**
-Please see folder – AccountingFirmDB for create and select test scripts. Files are in sql file format.
+Please see folder – AccountingFirmDB for create and select test scripts. Files are in sql file format. Firstly create database in MySQL named "AccountingFirmDB" and then run script named "AccountingFirmDB.sql" in MySQL command line or Workbench. I have used Windows client HeidiSQL.
 
 **b.**	How would you find all files  that  ends with “.js”  and bundle them together into one file.
 
@@ -28,35 +26,60 @@ Please see folder – AccountingFirmDB for create and select test scripts. Files
 **iii.	Suspects:**
 
 1.	John Novak 
+
 a.	Hair:  Black
+
 b.	Eyes: Green
+
 c.	Race: Asian
+
 2.	Vin Diesel:
+
  .	Hair: Blonde
+ 
 a.	Eyes: Brown
+
 b.	Race: Caucasian
+
 3.	 Guy Fawkes:
+
  .	Hair: Black
+ 
 a.	Eyes: Brown
+
 b.	Race: Hispanic
 
 
 **iv.	Legend**
 
 1.	Eyes:
+
 a.	Black:  140L98
+
 b.	Green: 140A98
+
 c.	Brown: 140A88
+
 d.	Blue:    140L97
+
 2.	Hair: 
+
  .	Brown: HHHKLJ
+ 
 a.	Black:   HHHKLI
+
 b.	Blonde: HHLH1L
+
 c.	White:  HHLH2L
+
 3.	Race:
+
  .	Asian: 1HYYYN
+ 
 a.	Hispanic: IHYYYN
+
 b.	White: IHYYNN
+
 
 **Solution:**
 is in folder **ForensicComputer**. This is Command Prompt/Bash application. Run it command line **»php ForensicComputer.php«**. Solution found neither of listed persons. I have to have create my own **»Perfect Suspect person«**, which matched the case.
@@ -97,3 +120,5 @@ For pasing data, there are prepared three CSV files:
 -	Names.csv and Surname.csv (generated from http://listofrandomnames.com/)
 
 For mock up/testing DataTables.Net jQuery component, there is folder named »DataTableTest«
+
+**PS: Strongly advice to read Word file: BASIC.DOCX**
