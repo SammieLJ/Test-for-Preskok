@@ -7,8 +7,8 @@
  */
 
 //Include models file. This simple example doesn't have autoloading mechanism.
-include 'Models\Suspect.php';
-include 'Models\DNKModels.php';
+include 'Models'.DIRECTORY_SEPARATOR.'Suspect.php';
+include 'Models'.DIRECTORY_SEPARATOR.'DNKModels.php';
 
 // DNK string sequence
 $DNKcodeToMatchString = 'HHHKLJ140L98IHYYYN';

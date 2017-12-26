@@ -44,7 +44,7 @@
         <thead>
             <tr><?php
                 foreach ($headerInfo as $headerField){
-                    echo "<th>".$headerField."</th>";
+                    echo "<th align=\"left\">".$headerField."</th>";
                 }
                 ?>
             </tr>
@@ -52,7 +52,7 @@
         <tfoot>
             <tr><?php
                 foreach ($headerInfo as $headerField){
-                    echo "<th>".$headerField."</th>";
+                    echo "<th align=\"left\">".$headerField."</th>";
                 }
                 ?>
             </tr>
