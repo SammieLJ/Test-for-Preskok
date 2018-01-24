@@ -6,71 +6,14 @@
  * Time: 14:08
  */
 
-function progressBar($done, $total) {
+$Procentage = 0;
+function simpleProgressBar($done, $total) {
     $perc = floor(($done / $total) * 100);
 
-    static $Ten = true;
-    static $Twenty = true;
-    static $Thirty = true;
-    static $Forty = true;
-    static $Fifty = true;
-    static $Sixty = true;
-    static $Seventy = true;
-    static $Eighty = true;
-    static $Ninety = true;
-    static $Hundred = true;
-
-    switch ($perc) {
-        case 10:
-            $StrToCmd = $Ten ? "10% ... " : "";
-            $Ten = false;
-            echo $StrToCmd;
-            break;
-        case 20:
-            $StrToCmd = $Twenty ? "20% ... " : "";
-            $Twenty = false;
-            echo $StrToCmd;
-            break;
-        case 30:
-            $StrToCmd = $Thirty ? "30% ... " : "";
-            $Thirty = false;
-            echo $StrToCmd;
-            break;
-        case 40:
-            $StrToCmd = $Forty ? "40% ... " : "";
-            $Forty = false;
-            echo $StrToCmd;
-            break;
-        case 50:
-            $StrToCmd = $Fifty ? "50% ... " : "";
-            $Fifty = false;
-            echo $StrToCmd;
-            break;
-        case 60:
-            $StrToCmd = $Sixty ? "60% ... " : "";
-            $Sixty = false;
-            echo $StrToCmd;
-            break;
-        case 70:
-            $StrToCmd = $Seventy ? "70% ... " : "";
-            $Seventy = false;
-            echo $StrToCmd;
-            break;
-        case 80:
-            $StrToCmd = $Eighty ? "80% ... " : "";
-            $Eighty = false;
-            echo $StrToCmd;
-            break;
-        case 90:
-            $StrToCmd = $Ninety ? "90% ... " : "";
-            $Ninety = false;
-            echo $StrToCmd;
-            break;
-        case 100:
-            $StrToCmd = $Hundred ? "100%" : "";
-            $Hundred = false;
-            echo $StrToCmd;
-            break;
+    global $Procentage;
+    if ($perc % 10 == 0 && $Procentage <> $perc) {
+        $Procentage = $perc;
+        echo $Procentage."% ... ";
     }
 }
 
@@ -156,7 +99,7 @@ foreach ($ParsedDataFileFinal as $parsedLine) {
         $parsedLine[4], $parsedLine[5], $parsedLine[6], $parsedLine[7]);
     $conn->query($sql);
 
-    progressBar($posOfImportedRow, count($ParsedDataFile));
+    simpleProgressBar($posOfImportedRow, count($ParsedDataFile));
     $posOfImportedRow++;
 }
 
