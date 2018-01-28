@@ -6,11 +6,10 @@
  * Time: 14:08
  */
 
-$Procentage = 0;
 function simpleProgressBar($done, $total) {
     $perc = floor(($done / $total) * 100);
 
-    global $Procentage;
+    static $Procentage;
     if ($perc % 10 == 0 && $Procentage <> $perc) {
         $Procentage = $perc;
         echo $Procentage."% ... ";
